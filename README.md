@@ -1,7 +1,7 @@
-# parola
+# parola.bash nedir?
 bash script ile parolama doğrulaması.
 
-# usage
+# kurulum & kullanım
 ```
 git clone https://github.com/lastpingu/parola.git
 cd parola
