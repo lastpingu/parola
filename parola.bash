@@ -9,8 +9,6 @@
 #for change this password you can write this:
 #./parola.bash --password
 
-chmod 777 parola
-
 kirmizi="\e[91m"
 tp="\e[0m"
 
@@ -26,7 +24,6 @@ h=$( echo $a | md5sum )
 if [[ $x == $h ]] ; then
 	echo ""
     echo "access successed!"
-    exit 0
 else
 	echo ""
     while :
@@ -40,4 +37,5 @@ echo $parola | md5sum > parola
 fi
 trap SIGTSTP
 trap 2
+exit 0
 #echo -e $x ; echo -e $h
