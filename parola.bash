@@ -1,13 +1,15 @@
 #!/bin/bash
 
 #₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺#
-# a script by lazy-pwny #
-#$$$$$$$$$$$$$$$$$$$$$$$#
+# a script by lazy-pwny  #
+#$$$$$$$$$$$$$$$$$$$$$$$$#
 
 #default encrypter is md5
 #you'r default password is "parola"
 #for change this password you can write this:
 #./parola.bash --password
+
+chmod 777 parola
 
 kirmizi="\e[91m"
 tp="\e[0m"
